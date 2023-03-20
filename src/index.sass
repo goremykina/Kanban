@@ -1,0 +1,39 @@
+*
+  margin: 0
+  font-family: 'Roboto'
+  font-weight: 400
+  font-size: 18px
+  line-height: 25px
+
+html, body, #root #root>div
+  height: 100%
+
+.wrapper
+  display: flex
+  flex-direction: column
+  height: 100vh
+
+.main_container
+  flex: 1 0 auto
+  background: #0079BF
+
+.footer_container
+  //flex: 0 0 auto
+  //margin-top: 30px
+  background: #0067A3
+  padding: 20px
+
+  @media screen and (max-width: 600px)
+    background-color: #0079BF
+
+.header_container
+  display: flex
+  justify-content: space-between
+  position: relative
+  padding: 10px
+  background: #0067A3
+
+  @media screen and (max-width: 600px)
+    background-color: #0079BF
+
+

@@ -1,0 +1,39 @@
+.column
+  display: flex
+  flex-direction: column
+  gap: 15px
+  background: #EBECF0
+  border-radius: 10px
+  width: 280px
+  padding: 12px
+  margin: 20px
+  height: max-content
+
+  @media screen and (max-width: 650px)
+    flex-grow: 1
+
+.column_title
+  font-weight: 400
+  font-size: 18px
+  line-height: 21px
+  margin: 0
+
+.title_task_inner
+  -webkit-line-clamp: 3
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  word-wrap: break-word
+  overflow: hidden
+
+.title_task_inner:hover
+  cursor: pointer
+
+.task_title
+  background: #FFFFFF
+  border-radius: 5px
+  padding: 7px
+
+button:hover
+  cursor: pointer
+
+
